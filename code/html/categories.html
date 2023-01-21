@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../img/logo/01.webp" />
+    <title>​ditonton Id</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+        <!-- Bootstrap Icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="../../code/scss/submain.css" />
+
+        <!-- Library AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      </head>
+
+      <body>
+        <!-- Navbar -->
+        <nav>
+          <div class="container my-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient custom-nav fixed-top">
+              <div class="container">
+                <a class="navbar-brand" href="../../index.html">
+                  <img src="../../img/logo/02.webp" alt="01" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../../index.html"><i class="bi bi-house-door"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"  style="border-radius: 2em; color: white; background-color: #188bce"><i class="bi bi-card-image"></i> Categories</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../../code/html/best-movie.html"><i class="bi bi-people"></i> Best Movie</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../../code/html/contact-us.html"><i class="bi bi-gear"></i> Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="code/html/daftar.html" style="border-radius: 2em; color: white; background-color: #188bce"><i class="bi bi-person-circle"></i> Register</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="code/html/daftar.html" style="border-radius: 2em; color: white; background-color: #188bce"><i class="bi bi-person-circle"></i> Login</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </nav>
+        <!-- Akhir Navbar -->
+
+
+        <!-- Carousel -->
+        <section id="carousel">
+          <div class="carousel">
+            <div class="container-fluid">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../../img/carousel/01.png" class="d-block w-100" alt="01" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../img/carousel/02.png" class="d-block w-100" alt=".02" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../img/carousel/03.png" class="d-block w-100" alt="03" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3c4f5c" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,128C384,139,480,181,576,208C672,235,768,245,864,240C960,235,1056,213,1152,213.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Carousel -->
+
+      
+        <!-- Film Terbaik -->
+        <section id="film-terbaik">
+          <div class="container">
+            <div class="row text-center justify-content-center fitur">
+              <div class="col-md-4 mb-3" data-aos="fade-down" data-aos-duration="1000">
+                <br />
+                <h2>Film Terbaik</h2>
+              </div>
+            </div>
+            <div class="row justify-content-center fitur">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000">
+                  <img src="../../img/film-terbaik/01.webp" class="card-img-top" alt="01">
+                  <div class="card-body">
+                    <a href="#" data-bs-target="#best01" data-bs-toggle="modal"><i class="bi bi-justify-left"></i> Detail</a>
+                  </div>
+                </div>
+              </div>
+                <!-- Modal -->
+                <div class="modal fade" id="best01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="../../img/film-terbaik/01.webp" alt="01" width="100%">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              Kualitas : BluRay
+                              <br>
+                              Negara : China, Hong Kong
+                              <br>
+                              Bintang film : Chris Collins, Donnie Yen, Kwok-Kwan Chan, Scott Adkins
+                              <br>
+                              Sutradara : Yip Man 4
+                              <br>
+                              Genre : Action, Biography, Drama, History
+                              <br>
+                              IMDb : 7.7 / 10 from 395 users
+                              <br>
+                              Diterbitkan : December 20, 2019
+                              <br>
+                              Oleh : d21
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://bit.ly/3TTjTHZ"><i class="bi bi-chat-dots"></i> Chat</a>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Akhir Modal -->
+
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="50">
+                  <img src="../../img/film-terbaik/02.webp" class="card-img-top" alt="02">
+                  <div class="card-body">
+                    <a href="#"  data-bs-target="#best02" data-bs-toggle="modal"><i class="bi bi-justify-left"></i> Detail</a>
+                  </div>
+                </div>
+              </div>
+                <!-- Modal -->
+                <div class="modal fade" id="best02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="../../img/film-terbaik/02.webp" alt="02" width="100%">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              Kualitas : BluRay
+                              <br>
+                              Negara : United States
+                              <br>
+                              Bintang film : Benedict Cumberbatch, Chiwetel Ejiofor, Elizabeth Olsen
+                              <br>
+                              Sutradara : Sam Raimi
+                              <br>
+                              Genre : Action, Adventure, Fantasy
+                              <br>
+                              IMDb : 7.5 / 10 from 89621 users
+                              <br>
+                              Diterbitkan : May 4, 2022
+                              <br>
+                              Oleh : d21
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://bit.ly/3TTjTHZ"><i class="bi bi-chat-dots"></i> Chat</a>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Akhir Modal -->
+
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100">
+                  <img src="../../img/film-terbaik/03.webp" class="card-img-top" alt="03">
+                  <div class="card-body">
+                    <a href="#"  data-bs-target="#best03" data-bs-toggle="modal"><i class="bi bi-justify-left"></i> Detail</a>
+                  </div>
+                </div>
+              </div>
+                <!-- Modal -->
+                <div class="modal fade" id="best03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="../../img/film-terbaik/03.webp" alt="03" width="100%">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              Kualitas : BluRay
+                              <br>
+                              Negara : Hong Kong
+                              <br>
+                              Bintang film : Biao Yuen, Siu-Wong Fan, Yi Huang, Yu-Hang To
+                              <br>
+                              Sutradara : Herman Yau
+                              <br>
+                              Genre : Action, Biography, Drama
+                              <br>
+                              IMDb : 7 / 10 from 32106 users
+                              <br>
+                              Diterbitkan : June 24, 2010
+                              <br>
+                              Oleh : d21
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://bit.ly/3TTjTHZ"><i class="bi bi-chat-dots"></i> Chat</a>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Akhir Modal -->
+
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="150">
+                  <img src="../../img/film-terbaik/04.webp" class="card-img-top" alt="04">
+                  <div class="card-body">
+                    <a href="#"  data-bs-target="#best04" data-bs-toggle="modal"><i class="bi bi-justify-left"></i> Detail</a>
+                  </div>
+                </div>
+              </div>
+                <!-- Modal -->
+                <div class="modal fade" id="best04" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="../../img/film-terbaik/04.webp" alt="04" width="100%">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              Kualitas : BluRay
+                              <br>
+                              Negara : Usa
+                              <br>
+                              Bintang film : Chris Evans, Chris Hemsworth, Mark Ruffalo, Robert Downey Jr.
+                              <br>
+                              Sutradara : Avengers: Endgame
+                              <br>
+                              Genre : Action, Adventure, Fantasy, Sci-fi
+                              <br>
+                              IMDb : 7 / 10 from 32106 users
+                              <br>
+                              Diterbitkan : June 24, 2010
+                              <br>
+                              Oleh : d21
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://bit.ly/3TTjTHZ"><i class="bi bi-chat-dots"></i> Chat</a>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Akhir Modal -->
+
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200">
+                  <img src="../../img/film-terbaik/05.webp" class="card-img-top" alt="05">
+                  <div class="card-body">
+                    <a href="#"  data-bs-target="#best05" data-bs-toggle="modal"><i class="bi bi-justify-left"></i> Detail</a>
+                  </div>
+                </div>
+              </div>
+                <!-- Modal -->
+                <div class="modal fade" id="best05" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="../../img/film-terbaik/05.webp" alt="05" width="100%">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              Kualitas : BluRay
+                              <br>
+                              Negara : China, Hong Kong
+                              <br>
+                              Bintang film : Donnie Yen, Kent Cheng, Lynn Hung, Sammo Hung Kam-Bo, Sammo Kam-Bo Hung, Xiaoming Huang
+                              <br>
+                              Sutradara : Wilson Yip
+                              <br>
+                              Genre : Action, Drama, History
+                              <br>
+                              IMDb : 7.5 / 10 from 103772 users
+                              <br>
+                              Diterbitkan : April 21, 2010
+                              <br>
+                              Oleh : d21
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://bit.ly/3TTjTHZ"><i class="bi bi-chat-dots"></i> Chat</a>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Akhir Modal -->
+
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="250">
+                  <img src="../../img/film-terbaik/06.webp" class="card-img-top" alt="06">
+                  <div class="card-body">
+                    <a href="#"  data-bs-target="#best06" data-bs-toggle="modal"><i class="bi bi-justify-left"></i> Detail</a>
+                  </div>
+                </div>
+              </div>
+                <!-- Modal -->
+                <div class="modal fade" id="best06" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="../../img/film-terbaik/06.webp" alt="06" width="100%">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              Kualitas : BluRay
+                              <br>
+                              Negara : Usa
+                              <br>
+                              Bintang film : Chris Evans, Chris Hemsworth, Mark Ruffalo, Robert Downey Jr.
+                              <br>
+                              Sutradara : Joss Whedon
+                              <br>
+                              Genre : Action, Adventure, Sci-fi
+                              <br>
+                              IMDb : 7.3 / 10 from 829364 users
+                              <br>
+                              Diterbitkan : April 22, 2015
+                              <br>
+                              Oleh : Layarkaca21
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://bit.ly/3TTjTHZ"><i class="bi bi-chat-dots"></i> Chat</a>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Akhir Modal -->
+              
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                  <img src="../../img/film-terbaik/07.webp" class="card-img-top" alt="07">
+                  <div class="card-body">
+                    <a href="#"  data-bs-target="#best07" data-bs-toggle="modal"><i class="bi bi-justify-left"></i> Detail</a>
+                  </div>
+                </div>
+              </div>
+                <!-- Modal -->
+                <div class="modal fade" id="best07" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="../../img/film-terbaik/07.webp" alt="07" width="100%">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              Kualitas : BluRay
+                              <br>
+                              Negara : Hong Kong
+                              <br>
+                              Bintang film : Anthony Chau-Sang Wong, Eric Tsang, Gillian Chung, Jordan Chan
+                              <br>
+                              Sutradara : Herman Yau
+                              <br>
+                              Genre : Action, Biography, Drama
+                              <br>
+                              IMDb : 6.1 / 10 from 11163 users
+                              <br>
+                              Diterbitkan : March 22, 2013
+                              <br>
+                              Oleh : d21
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://bit.ly/3TTjTHZ"><i class="bi bi-chat-dots"></i> Chat</a>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Akhir Modal -->
+
+              
+
+              </div>
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#188bce" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,96C384,96,480,64,576,69.3C672,75,768,117,864,122.7C960,128,1056,96,1152,85.3C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Fitur -->
+
+
+
+        <!-- Studio Film -->
+        <section id="studio">
+          <div class="container">
+            <div class="row text-center justify-content-center fitur">
+              <div class="col-md-4 mb-3" data-aos="fade-down" data-aos-duration="1000">
+                <br />
+                <h2>Studio Film Terbaik</h2>
+              </div>
+            </div>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/01.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/02.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/03.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/04.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/05.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/07.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/08.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/09.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/10.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/01.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/02.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/03.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/04.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/05.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/06.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/07.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/08.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+                      <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="../../img/studio-film/09.webp" class="card-img-top" alt="07">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- Akhir Studio Film -->
+
+
+        <!-- Footer -->
+        <footer>
+          <div class="row">
+            <div class="col-lg-3 col-12">
+              <h6 class="text-center">Social Media Kami</h6>
+              <h6><i class="bi bi-envelope"></i> ditonton.id@gmail.com</h6>
+              <h6><i class="bi bi-linkedin"></i> ditonton id</h6>
+              <h6><i class="bi bi-facebook"></i> Ditonton Id</h6>
+              <h6><i class="bi bi-instagram"></i> @ditonton.id</h6>
+              <h6><i class="bi bi-tiktok"></i> @ditinton.id</h6>
+            </div>
+          </div>
+          <div class="row justify-content-center text-center">
+            <br />
+            <br>
+            <h6>© 2023 Powered Ditonton Indonesia</h6>
+            <br />
+          </div>
+        </footer>
+        <!-- Akhir Footer -->
+
+        <!-- Bottom Customer Sevice -->
+        <section>
+          <div class="container">
+            <nav class="navbar navbar-light bg-transparant fixed-bottom">
+              <div class="container">
+                <a class="navbar-brand ms-auto" href="https://bit.ly/3TTjTHZ">
+                  <img src="../../img/cs/01.webp" alt="" width="70" height="70" />
+                </a>
+              </div>
+            </nav>
+          </div>
+        </section>
+        <!-- Akhir Bottom Customer Service -->
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Library AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <!-- Platfrom GSap-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+
+        <!-- GSap-->
+        <script>
+          gsap.registerPlugin(TextPlugin);
+          gsap.to(".display-4", { duration: 5, delay: 1.5, text: "Bingung nyari filem yang recomended dimana?" });
+          gsap.to(".display-5", { duration: 5, delay: 1.5, text: "Kini ditonton id adalah solusinya" });
+          gsap.to(".lead", { duration: 5, delay: 1.5, text: "Selamat datang di ditonton id" });
+          gsap.from(".navbar", { duration: 1.5, y: "-100", opacity: 0, ease: "bounce" });
+          gsap.from(".logo", { duration: 1.5, y: "-100", opacity: 0, ease: "bounce" });
+        </script>
+      </body>
+    </html>
+  </body>
+</html>

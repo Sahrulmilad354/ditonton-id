@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&family=Noto+Sans:wght@700&family=Ubuntu:wght@400;700&display=swap");
+body {
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50vmax;
+  margin-top: 7em;
+  background-color: #188bce;
+}
+
+.custom-nav {
+  font-family: "Charm", cursive;
+}
+.custom-nav .navbar-brand img {
+  width: 150px;
+  height: 60px;
+}
+.custom-nav .navbar-brand img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+.custom-nav #navbarScroll .navbar-nav .nav-item .nav-link {
+  color: #188bce;
+  font-weight: 700;
+  margin-left: 1em;
+  border-radius: 2em;
+  border: 1px solid transparent;
+  transition: 0.5s color ease;
+}
+.custom-nav #navbarScroll .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+  border-radius: 2em;
+  border: 1px solid #42baff;
+  background-color: #42baff;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+#carousel {
+  background-color: #188bce;
+}
+
+.menu {
+  background-color: #188bce;
+}
+.menu h2 {
+  color: #ffffff;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+}
+.menu h3 {
+  font-family: "Charm", cursive;
+  color: #ffffff;
+}
+.menu h5 {
+  color: #ffffff;
+}
+.menu p {
+  text-align: justify;
+  color: #ffffff;
+}
+.menu a {
+  display: inline-block;
+  color: black;
+  background-color: #42baff;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+.menu a:hover {
+  color: #42baff;
+  border: 1px solid #42baff;
+  background-color: transparent;
+}
+.menu img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+#film-terbaik {
+  background-color: #3c4f5c;
+}
+#film-terbaik .card {
+  border-radius: 10px;
+  background-color: #188bce;
+}
+#film-terbaik .card a {
+  display: inline-block;
+  color: black;
+  background-color: #42baff;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+#film-terbaik .card a:hover {
+  color: #42baff;
+  border: 1px solid #42baff;
+  background-color: transparent;
+}
+#film-terbaik .card img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+  border-radius: 10px;
+}
+#film-terbaik h2 {
+  color: #188bce;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+
+#studio h2 {
+  color: #ffffff;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+#studio img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+footer {
+  height: 250px;
+  background-image: url(../../img/background/03.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+footer h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+footer h6:hover {
+  color: #3c4f5c;
+}
+footer h6 a {
+  text-decoration: none;
+  color: white;
+}
+footer h6 a:hover {
+  color: #3c4f5c;
+}
+footer a {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #3c4f5c;
+}
+footer a h6 {
+  text-decoration: none;
+  color: white;
+}
+footer a h6:hover {
+  color: #3c4f5c;
+}
+
+@media (max-width: 480px) {
+  .header h2 {
+    margin-top: 9rem;
+    text-align: center;
+  }
+  .header h3 {
+    text-align: center;
+  }
+  .footer {
+    height: 200px;
+    background-image: url(../../img/background/02.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  .footer h6 {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 50%;
+  }
+  .footer h6:hover {
+    color: #3c4f5c;
+  }
+  .footer h6 a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer h6 a:hover {
+    color: #3c4f5c;
+  }
+  .footer a {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+  }
+  .footer a:hover {
+    color: #3c4f5c;
+  }
+  .footer a h6 {
+    text-decoration: none;
+    color: white;
+  }
+  .footer a h6:hover {
+    color: #3c4f5c;
+  }
+}/*# sourceMappingURL=submain.css.map */

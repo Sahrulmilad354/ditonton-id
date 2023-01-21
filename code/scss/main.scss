@@ -1,0 +1,320 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&family=Noto+Sans:wght@700&family=Ubuntu:wght@400;700&display=swap');
+// Variabel
+$primaryColor: #188bce;
+$secondaryColor: #42baff;
+$tertiarycolor: #ffffff;
+$textColor: #3c4f5c;
+
+// Mixin
+@mixin tombol {
+  display: inline-block;
+  color: black;
+  background-color: $secondaryColor;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+// Styles
+body {
+  background-image: url(../../img/background/02.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50vmax;
+  margin-top: 10em;
+  background-color: $textColor;
+}
+
+// Navbar
+.custom-nav {
+  font-family: "Charm", cursive;
+  .navbar-brand {
+    img {
+      width: 150px;
+      height: 60px;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+      }
+    }
+  }
+  #navbarScroll {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $primaryColor;
+          font-weight: 700;
+          margin-left: 1em;
+          border-radius: 2em;
+          border: 1px solid transparent;
+          transition: 0.5s color ease;
+
+          &:hover {
+            color: white;
+            border-radius: 2em;
+            border: 1px solid $secondaryColor;
+            background-color: $secondaryColor;
+            transform: scale(1.1);
+            transition: all 1s;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Header
+.custom-header {
+  
+  margin-top: 10em;
+  h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: $secondaryColor;
+    white-space: nowrap;
+    font-family: 'Kalam', cursive;
+  }
+
+  h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: $primaryColor;
+  }
+
+  p {
+    color: $textColor;
+    font-size: 1rem;
+    margin-top: 2em;
+    text-align: justify;
+  }
+
+  h5 {
+    color: $secondaryColor;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    @include tombol;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+
+    &:hover {
+      color: $secondaryColor;
+      border: 1px solid $secondaryColor;
+      background-color: transparent;
+    }
+  }
+}
+
+// Caousel
+#carousel {
+  background-color: $primaryColor;
+}
+
+// Menu
+.menu {
+  background-color: $primaryColor;
+  h2 {
+    color: $tertiarycolor;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: "Charm", cursive;
+    color: $tertiarycolor;
+  }
+
+  h5 {
+    color: $tertiarycolor;
+  }
+
+  p {
+    text-align: justify;
+    color: $tertiarycolor;
+  }
+
+  a {
+    @include tombol;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+
+    &:hover {
+      color: $secondaryColor;
+      border: 1px solid $secondaryColor;
+      background-color: transparent;
+    }
+  }
+
+  img {
+    &:hover {
+      transform: scale(1.1);
+      transition: all 1s;
+    }
+  }
+}
+
+// Film Terbaik
+#film-terbaik {
+  .card {
+    border-radius: 10px;
+    background-color: $primaryColor;
+    a {
+      @include tombol;
+      border: 1px solid transparent;
+      transition: 0.5s ease;
+  
+      &:hover {
+        color: $secondaryColor;
+        border: 1px solid $secondaryColor;
+        background-color: transparent;
+      }
+    }
+  
+    img {
+      &:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+        border-radius: 10px;
+      }
+    }
+  }
+  h2 {
+    color: $primaryColor;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+  }
+
+  
+}
+
+// Studio Film
+#studio {
+  h2 {
+    color: $primaryColor;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+  }
+
+  img {
+    &:hover {
+      transform: scale(1.1);
+      transition: all 1s;
+    }
+  }
+}
+
+// Footer
+footer {
+  height: 250px;
+  background-image: url(../../img/background/03.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+  margin-top: 2rem;
+  padding: 3rem;
+
+  h6 {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+
+    &:hover {
+      color: $textColor;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        color: $textColor;
+      }
+    }
+  }
+
+  a {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: $textColor;
+    }
+
+    h6 {
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        color: $textColor;
+      }
+    }
+  }
+}
+
+// RESPONSIBILITY UKURAN EXTRA SMALL (SMARTPHONE)
+@media (max-width: 480px) {
+  // Header
+  .header {
+    h2 {
+      margin-top: 9rem;
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+
+  // Footer
+  .footer {
+    height: 200px;
+    background-image: url(../../img/background/02.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    h6 {
+      font-family: "Ubuntu", sans-serif;
+      color: white;
+      font-size: 50%;
+
+      &:hover {
+        color: $textColor;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: $textColor;
+        }
+      }
+    }
+
+    a {
+      font-family: "Ubuntu", sans-serif;
+      color: white;
+
+      &:hover {
+        color: $textColor;
+      }
+
+      h6 {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: $textColor;
+        }
+      }
+    }
+  }
+}

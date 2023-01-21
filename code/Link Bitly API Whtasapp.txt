@@ -1,0 +1,2 @@
+https://api.whatsapp.com/send?phone=6283144000010&text=
+https://bit.ly/3TTjTHZ
